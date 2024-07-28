@@ -29,5 +29,4 @@ jobs:
           path: ./artifacts
           
       - name: display file contents
-        run: |-
-              cat ./artifacts/hello.txt
+        run: cat ./artifacts/hello.txt
